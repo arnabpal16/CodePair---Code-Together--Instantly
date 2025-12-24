@@ -4,7 +4,7 @@
 
 **Codepair** is a modern, cloud-based collaborative IDE that enables real-time code editing, execution, and collaboration. Built with React, Monaco Editor, and Yjs for seamless real-time synchronization.
 
-**LIVE DEMO**: [Codepair](https://codepair.vercel.app)
+**LIVE DEMO**: Yet not published
 
 ---
 
@@ -84,7 +84,7 @@
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/codepair.git
+git clone https://github.com/arnabpal16/CodePair---Code-Together--Instantly.git
 cd codepair
 ```
 
@@ -286,12 +286,6 @@ npx kill-port 5173
 
 ---
 
-## 📝 License
-
-MIT License - see LICENSE file for details
-
----
-
 ## 🙏 Acknowledgments
 
 - **Monaco Editor** - VS Code's editor
@@ -304,8 +298,7 @@ MIT License - see LICENSE file for details
 
 ## 📧 Contact
 
-- **Website**: [souravpaitandy.me](https://www.souravpaitandy.me)
-- **GitHub**: [@souravpaitandy](https://github.com/arnabpal16)
+- **GitHub**: [@arnabpal16](https://github.com/arnabpal16)
 - **Email**: souravpaitandy@gmail.com
 
 ---
