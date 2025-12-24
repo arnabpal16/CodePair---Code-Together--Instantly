@@ -32,6 +32,10 @@ export default defineConfig({
   },
 
   server: {
+    
+    allowedHosts: [
+      'ebwgh-103-188-163-178.a.free.pinggy.link',
+    ],
     proxy: {
       '/execute': 'http://localhost:3001',
     }
