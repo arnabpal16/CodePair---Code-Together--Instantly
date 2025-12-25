@@ -1,27 +1,27 @@
 version: '3.8'
 
 services:
-  devdock-server:
+  codepair-server:
     build: ./server
-    container_name: devdock-server
+    container_name: codepair-server
     ports:
       - "3001:3001" # API
       - "1234:1234" # WebSocket
     environment:
       - PISTON_URL=https://emkc.org/api/v2/piston/execute
     networks:
-      - devdock-network
+      - codepair-network
 
-  devdock-client:
+  codepair-client:
     build: ./client
-    container_name: devdock-client
+    container_name: codepair-client
     ports:
       - "80:80"
     depends_on:
-      - devdock-server
+      - codepair-server
     networks:
-      - devdock-network
+      - codepair-network
 
 networks:
-  devdock-network:
+  codepair-network:
     driver: bridge

@@ -15,6 +15,7 @@
     "@tailwindcss/vite": "^4.1.18",
     "axios": "^1.13.2",
     "framer-motion": "^12.23.26",
+    "lightningcss": "^1.30.2",
     "lucide-react": "^0.561.0",
     "monaco-editor": "^0.55.1",
     "react": "^19.2.0",
@@ -38,5 +39,8 @@
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.18",
     "vite": "^7.2.4"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.54.0"
   }
 }

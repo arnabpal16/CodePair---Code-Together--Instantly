@@ -148,7 +148,7 @@ const Landing = () => {
                 </motion.div>
             </section>
 
-            {/* Architecture / Tech Stack */}
+            {/* Tech Stack List */}
             <section id="architecture" className="py-20 border-y border-border bg-surface/30">
                 <div className="max-w-6xl mx-auto px-6 text-center">
                     <p className="text-sm font-bold tracking-widest text-muted uppercase mb-10">Powered by Modern Primitives</p>
