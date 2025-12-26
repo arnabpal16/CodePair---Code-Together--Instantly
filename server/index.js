@@ -37,7 +37,7 @@ const allowedOrigins = [
   process.env.CLIENT_URL,
 
   // cloudflare tunnel (backend public URL)
-  "https://bra-desert-application-approximate.trycloudflare.com",
+  "https://brunette-avoid-rosa-suppliers.trycloudflare.com/api/users/sync",
 ].filter(Boolean);
 
 app.use(
