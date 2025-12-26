@@ -280,15 +280,15 @@ const Landing = () => {
                         </div>
                         <div className="flex gap-6">
                             <a href="https://github.com/arnabpal16/" className="hover:text-foreground transition-colors">GitHub</a>
-                            <a href="https://x.com/PaitandySourav" className="hover:text-foreground transition-colors">Twitter</a>
-                            <a href="https://github.com/arnabpal16/dev-dock/blob/main/LICENSE" className="hover:text-foreground transition-colors">License</a>
+                            <a href="https://x.com/arnabpal016" className="hover:text-foreground transition-colors">Twitter</a>
+                            <a href="https://github.com/arnabpal16/" className="hover:text-foreground transition-colors">License</a>
                         </div>
                     </div>
                     
                     <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-muted">
                         <p>An open-source project. Contributions are welcome!</p>
                         <p>
-                            Developed by <a href="https://www.souravpaitandy.me" target="_blank" rel="noopener noreferrer" className="text-muted hover:text-foreground transition-colors">Arnab Pal</a> with Grit and Passion for developers
+                            Developed by <a href="https://github.com/arnabpal16/" target="_blank" rel="noopener noreferrer" className="text-muted hover:text-foreground transition-colors">Arnab Pal</a> with Grit and Passion for developers
                         </p>
                     </div>
                 </div>

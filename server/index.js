@@ -22,11 +22,22 @@ mongoose
 
 const app = express();
 
+// const allowedOrigins = [
+//   "http://localhost:5173",
+//   "http://localhost:4173",
+//   "https://codepair.vercel.app",
+//   process.env.CLIENT_URL,
+// ].filter(Boolean);
+
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:4173",
-  "https://codepair.vercel.app",
+
+  // production frontend
   process.env.CLIENT_URL,
+
+  // cloudflare tunnel (backend public URL)
+  "https://bra-desert-application-approximate.trycloudflare.com",
 ].filter(Boolean);
 
 app.use(
