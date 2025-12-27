@@ -4,7 +4,7 @@
 
 **Codepair** is a modern, cloud-based collaborative IDE that enables real-time code editing, execution, and collaboration. Built with React, Monaco Editor, and Yjs for seamless real-time synchronization.
 
-**LIVE DEMO**: Yet not published
+**LIVE DEMO**: https://codepair-xi.vercel.app
 
 ---
 
@@ -36,9 +36,8 @@
 
 ### 🔒 Security & Performance
 
-- **CORS Protection**: Strict origin validation
-- **Input Validation**: Server-side validation on all endpoints
-- **Rate Limiting**: DDoS protection (100 req/15min)
+- **CORS Protection**: For now allowed all origin (*)
+- **Input Validation**: Server-side validation on all endpoint
 - **Error Boundaries**: Graceful error handling
 - **File Limits**: Max 50 files, 1MB per file
 - **Bundle Optimization**: Code splitting ready
@@ -208,16 +207,6 @@ useEffect(() => {
 
 ---
 
-## 📊 Analytics (Optional)
-
-Add Google Analytics 4 tracking:
-
-1. Get GA4 Measurement ID
-2. Add to `client/.env`: `VITE_GA_MEASUREMENT_ID=G-XXXXXXXXXX`
-3. Events tracked: project creation, code execution, file operations
-
----
-
 ## 🔐 Security Features
 
 - **CORS**: Whitelist-based origin validation
@@ -299,7 +288,7 @@ npx kill-port 5173
 ## 📧 Contact
 
 - **GitHub**: [@arnabpal16](https://github.com/arnabpal16)
-- **Email**: souravpaitandy@gmail.com
+- **Email**: arnab.pal712409@gmail.com
 
 ---
 
